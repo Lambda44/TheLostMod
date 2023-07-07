@@ -29,18 +29,17 @@ public class Purity extends CustomOrb {
     public static final String ORB_ID = makeID("Purity");
     private static final OrbStrings orbString = CardCrawlGame.languagePack.getOrbString(ORB_ID);
     public static final String NAME = orbString.NAME;
-    public static final String[] DESCRIPTIONS = orbString.DESCRIPTION;
+    //public static final String[] DESCRIPTIONS = orbString.DESCRIPTION;
     private static final String IMG_PATH = characterPath("orbs/Purity.png");
-    //private static final float SPIRIT_WIDTH = 96.0f;
     public static com.badlogic.gdx.graphics.Color color = Color.GOLDENROD.cpy();
-    public static com.badlogic.gdx.graphics.Color color2 = Color.SKY.cpy();
 
     public Purity() {
-        super(ORB_ID, NAME, 4, 1, orbString.DESCRIPTION[0] + 4 + orbString.DESCRIPTION[1], orbString.DESCRIPTION[2], IMG_PATH);
+        super(ORB_ID, NAME, 4, 1, "", "", IMG_PATH);
         updateDescription();
     }
 
     public void update(){
+        super.update();
         updateDescription();
     }
 
