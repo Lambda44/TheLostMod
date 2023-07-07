@@ -1,0 +1,86 @@
+[
+  {
+    "PROPER_NAME": "This is displayed in the tooltip.",
+    "NAMES": [
+      "these",
+      "are",
+      "detected",
+      "in",
+      "the",
+      "text"
+    ],
+    "DESCRIPTION": "This is displayed in the tooltip. Note, spaces are not allowed in NAMES. Also, they should be entirely lowercase. For multi-word keywords, see the next one."
+  },
+  {
+    "PROPER_NAME": "Multiword Keyword",
+    "NAMES": [
+      "Multiword Keyword",
+      "multiword_keyword",
+      "multiword_keywords"
+    ],
+    "DESCRIPTION": "Make sure the first element in the NAMES is the same as your PROPER_NAME. The rest should use _ to replace spaces and be entirely lowercase. In card text, you'll use the underscore versions."
+  },
+  {
+    "PROPER_NAME": "Buffer",
+    "NAMES": [
+      "buffer"
+    ],
+    "DESCRIPTION": "Prevent the next instance of HP damage per stack of #yBuffer."
+  },
+  {
+    "PROPER_NAME": "Tears",
+    "NAMES": [
+      "tears"
+    ],
+    "DESCRIPTION": "At the end of your turn, gain #yBlock equal to your #yTears stacks. Lose half your #yTears at the start of your turn. Affected by #yBlock modifiers."
+  },
+  {
+    "PROPER_NAME": "Evil",
+    "NAMES": [
+      "evil"
+    ],
+    "DESCRIPTION": "If you have #b10 or more #yEvil, spend #b10 #yEvil to gain #b1 #yEnergy, #b2 #yStrength, and draw #b1 card."
+  },
+  {
+    "PROPER_NAME": "Purity",
+    "NAMES": [
+      "purity"
+    ],
+    "DESCRIPTION": "Orb. #yPassive: Deal damage to a random enemy. #yEvoke: Gain #yFocus."
+  },
+  {
+    "PROPER_NAME": "Reroll",
+    "NAMES": [
+      "reroll"
+    ],
+    "DESCRIPTION": "Discard any number of cards, then draw that many cards."
+  },
+  {
+    "PROPER_NAME": "Entangled",
+    "NAMES": [
+      "entangled"
+    ],
+    "DESCRIPTION": "You cannot play Attacks for the rest of this turn."
+  },
+  {
+    "PROPER_NAME": "Delirious",
+    "NAMES": [
+      "delirious"
+    ],
+    "DESCRIPTION": "Permanently receive #b+50% attack damage. Bypasses #yArtifact."
+  },
+  {
+    "PROPER_NAME": "Nebula",
+    "NAMES": [
+      "nebula"
+    ],
+    "DESCRIPTION": "This turn, whenever you're attacked, deal damage back."
+  },
+  {
+    "PROPER_NAME": "Leviathan",
+    "NAMES": [
+      "leviathan"
+    ],
+    "DESCRIPTION": "At the start of your turn, gain #yEvil."
+  }
+]

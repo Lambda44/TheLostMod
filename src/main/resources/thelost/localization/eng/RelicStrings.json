@@ -1,0 +1,93 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+  "${modID}:HolyMantle": {
+    "NAME": "Holy Mantle",
+    "FLAVOR": "A holy shield bestowed by angels.",
+    "DESCRIPTIONS": [
+      "At the start of each combat and event, gain #b1 #yBuffer."
+    ]
+  },
+  "${modID}:SoulOfTheLost": {
+    "NAME": "Soul of the Lost",
+    "FLAVOR": "You have left your body behind. Something else ties you to this plane now.",
+    "DESCRIPTIONS": [
+      "Non-boss chests have a #b50% chance to contain a second relic. When climbing a floor, Max HP is set to #b1."
+    ]
+  },
+  "${modID}:DevilsCrown": {
+    "NAME": "Devil's Crown",
+    "FLAVOR": "A crown to denote the Devil's special customers.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " #y${modID}:Evil."
+    ]
+  },
+  "${modID}:TheBattery": {
+    "NAME": "The Battery",
+    "FLAVOR": "A regular battery. Good for storing charge.",
+    "DESCRIPTIONS": [
+      "The first card you play each combat is played twice."
+    ]
+  },
+  "${modID}:FlatStone": {
+    "NAME": "Flat Stone",
+    "FLAVOR": "A stone that seems good for skipping.",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " #y${modID}:Tears."
+    ]
+  },
+  "${modID}:CrystalBall": {
+    "NAME": "Crystal Ball",
+    "FLAVOR": "If you look close enough, you might be able to see into the future.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain #b",
+      " #yArtifact."
+    ]
+  },
+  "${modID}:PsyFly": {
+    "NAME": "Psy Fly",
+    "FLAVOR": "This little fly seems like quite the flamboyant protector.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain #b",
+      " #yIntangible."
+    ]
+  },
+  "${modID}:DivineIntervention": {
+    "NAME": "Divine Intervention",
+    "FLAVOR": "He will be your shield when your own fails you.",
+    "DESCRIPTIONS": [
+      "Taking damage during events drains from a pool of #b",
+      " HP."
+    ]
+  },
+  "${modID}:CrackedKey": {
+    "NAME": "Cracked Key",
+    "FLAVOR": "Don't regret exploring the other side.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. At the end of your turn, remove ALL your #y${modID}:Buffer."
+    ]
+  },
+  "${modID}:EyeOfTheOccult": {
+    "NAME": "Eye of the Occult",
+    "FLAVOR": "Power, but at what cost?",
+    "DESCRIPTIONS": [
+      "ALL enemies are #y${modID}:Delirious. At the start of your turn, gain #b",
+      " #yVulnerable."
+    ]
+  },
+  "${modID}:Eraser": {
+    "NAME": "Eraser",
+    "FLAVOR": "Erase thy enemy.",
+    "DESCRIPTIONS": [
+      "Upon pickup, remove a card and ALL copies of it from your deck.",
+      "Choose a card to remove."
+    ]
+  }
+}

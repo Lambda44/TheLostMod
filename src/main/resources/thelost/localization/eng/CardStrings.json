@@ -1,0 +1,344 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "UPGRADE_DESCRIPTION": "If you change the constructor of your card to use super(cardInfo, true); this will be the card's description when it is upgraded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:MomsEye": {
+    "NAME": "Mom's Eye",
+    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage."
+  },
+  "${modID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:HolyCard": {
+    "NAME": "Holy Card",
+    "DESCRIPTION": "Ethereal. NL Gain !M! ${modID}:Buffer. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! ${modID}:Buffer. NL Exhaust."
+  },
+  "${modID}:AstralProjection": {
+    "NAME": "Astral Projection",
+    "DESCRIPTION": "Gain 1 Intangible. NL Lose !M! Dexterity. NL Exhaust."
+  },
+  "${modID}:MomsBra": {
+    "NAME": "Mom's Bra",
+    "DESCRIPTION": "ALL enemies lose !M! Strength. NL Exhaust."
+  },
+  "${modID}:IsaacsTears": {
+    "NAME": "Isaac's Tears",
+    "DESCRIPTION": "Gain !B! ${modID}:Tears. NL Deal !D! damage."
+  },
+  "${modID}:Neptunus": {
+    "NAME": "Neptunus",
+    "DESCRIPTION": "Innate. NL Whenever you gain ${modID}:Nebula, gain !M! more."
+  },
+  "${modID}:DevilDeal": {
+    "NAME": "Devil Deal",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! ${modID}:Evil."
+  },
+  "${modID}:DeckOfCards": {
+    "NAME": "Deck of Cards",
+    "DESCRIPTION": "At the start of your turn, draw !M! additional card."
+  },
+  "${modID}:HolyWater": {
+    "NAME": "Holy Water",
+    "DESCRIPTION": "Remove all your debuffs. NL Gain !B! ${modID}:Tears, !M! Strength, and !M! Dexterity. NL Exhaust."
+  },
+  "${modID}:TornPhoto": {
+    "NAME": "Torn Photo",
+    "DESCRIPTION": "Gain !B! ${modID}:Tears. NL Deal !D! damage twice."
+  },
+  "${modID}:D6": {
+    "NAME": "D6",
+    "DESCRIPTION": "${modID}:Reroll. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "${modID}:Reroll."
+  },
+  "${modID}:Aquarius": {
+    "NAME": "Aquarius",
+    "DESCRIPTION": "Gain !B! ${modID}:Tears and !M! ${modID}:Nebula."
+  },
+  "${modID}:Pentagram": {
+    "NAME": "Pentagram",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil. NL Deal !D! damage."
+  },
+  "${modID}:LeviathanForm": {
+    "NAME": "Leviathan Form",
+    "DESCRIPTION": "Ethereal. NL At the start of your turn, gain !M! ${modID}:Evil.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, gain !M! ${modID}:Evil."
+  },
+  "${modID}:DeadOnion": {
+    "NAME": "Dead Onion",
+    "DESCRIPTION": "Gain !B! ${modID}:Tears. NL Apply !M! Weak to ALL enemies."
+  },
+  "${modID}:LostContact": {
+    "NAME": "Lost Contact",
+    "DESCRIPTION": "Gain !B! ${modID}:Tears. NL Gain !M! ${modID}:Buffer. NL Exhaust."
+  },
+  "${modID}:Brimstone": {
+    "NAME": "Brimstone",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil. NL Deal !D! damage to ALL enemies."
+  },
+  "${modID}:SacrificialDagger": {
+    "NAME": "Sacrificial Dagger",
+    "DESCRIPTION": "Deal !D! damage. Enemy loses !M! Strength."
+  },
+  "${modID}:WhoreOfBabylon": {
+    "NAME": "Whore of Babylon",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil. NL Deal !D! damage twice."
+  },
+  "${modID}:Godhead": {
+    "NAME": "Godhead",
+    "DESCRIPTION": "Whenever you play a card, gain !M! ${modID}:Tears and deal !M! damage to ALL enemies."
+  },
+  "${modID}:TheNail": {
+    "NAME": "The Nail",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil. NL Deal !D! damage and apply !M! Vulnerable."
+  },
+  "${modID}:PrayerCard": {
+    "NAME": "Prayer Card",
+    "DESCRIPTION": "Channel 1 ${modID}:Purity. NL Draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Channel 1 ${modID}:Purity. NL Draw !M! cards."
+  },
+  "${modID}:BookOfBelial": {
+    "NAME": "Book of Belial",
+    "DESCRIPTION": "Gain !M! temporary Strength."
+  },
+  "${modID}:DeepPockets": {
+    "NAME": "Deep Pockets",
+    "DESCRIPTION": "Gain [E] [E]. NL Draw 1 card. NL Exhaust."
+  },
+  "${modID}:BlankCard": {
+    "NAME": "Blank Card",
+    "DESCRIPTION": "This turn, your next card is played twice.",
+    "UPGRADE_DESCRIPTION": "Draw !M! card. NL This turn, your next card is played twice."
+  },
+  "${modID}:GlitchedCrown": {
+    "NAME": "Glitched Crown",
+    "DESCRIPTION": "Draw cards until your hand is full. NL Gain [E]. NL Exhaust."
+  },
+  "${modID}:TheBible": {
+    "NAME": "The Bible",
+    "DESCRIPTION": "Ethereal. NL Gain !M! ${modID}:Buffer. NL Lose 2 Dexterity. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! ${modID}:Buffer. NL Lose 2 Dexterity. NL Exhaust."
+  },
+  "${modID}:ImmaculateHeart": {
+    "NAME": "Immaculate Heart",
+    "DESCRIPTION": "Channel 1 ${modID}:Purity. NL Gain !M! temporary Strength."
+  },
+  "${modID}:DeadBird": {
+    "NAME": "Dead Bird",
+    "DESCRIPTION": "Dead !D! damage to ALL enemies."
+  },
+  "${modID}:MomsKnife": {
+    "NAME": "Mom's Knife",
+    "DESCRIPTION": "Deal !D! damage. NL Increase this card's damage by !M! this combat."
+  },
+  "${modID}:Mars": {
+    "NAME": "Mars",
+    "DESCRIPTION": "Gain !M! ${modID}:Nebula. NL Deal !D! damage."
+  },
+  "${modID}:Gemini": {
+    "NAME": "Gemini",
+    "DESCRIPTION": "Whenever you're attacked, gain !M! ${modID}:Nebula."
+  },
+  "${modID}:Monstrance": {
+    "NAME": "Monstrance",
+    "DESCRIPTION": "Innate. NL Channel !M! ${modID}:Purity. NL Exhaust."
+  },
+  "${modID}:Mercurius": {
+    "NAME": "Mercurius",
+    "DESCRIPTION": "Attacks cost 0. NL Whenever you play an Attack, Exhaust it and gain !M! ${modID}:Nebula."
+  },
+  "${modID}:Trisagion": {
+    "NAME": "Trisagion",
+    "DESCRIPTION": "Channel 1 ${modID}:Purity. NL Deal !D! damage to ALL enemies."
+  },
+  "${modID}:Polyphemus": {
+    "NAME": "Polyphemus",
+    "DESCRIPTION": "Gain !B! ${modID}:Tears. NL Deal !D! damage."
+  },
+  "${modID}:Terra": {
+    "NAME": "Terra",
+    "DESCRIPTION": "Remove the enemy's Block. NL Deal !D! damage. NL Gain !M! ${modID}:Nebula."
+  },
+  "${modID}:GhostPepper": {
+    "NAME": "Ghost Pepper",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy loses !M! Strength this turn."
+  },
+  "${modID}:DivorcePapers": {
+    "NAME": "Divorce Papers",
+    "DESCRIPTION": "Gain !B! ${modID}:Tears. NL Draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Gain !B! ${modID}:Tears. NL Draw !M! cards."
+  },
+  "${modID}:SadOnion": {
+    "NAME": "Sad Onion",
+    "DESCRIPTION": "At the start of your turn, gain !M! Block."
+  },
+  "${modID}:Duality": {
+    "NAME": "Duality",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil. NL Channel 1 ${modID}:Purity."
+  },
+  "${modID}:RockBottom": {
+    "NAME": "Rock Bottom",
+    "DESCRIPTION": "Gain !M! Artifact. NL Exhaust."
+  },
+  "${modID}:Purgatory": {
+    "NAME": "Purgatory",
+    "DESCRIPTION": "At the start of your turn, deal !M! damage to ALL enemies."
+  },
+  "${modID}:DeathsTouch": {
+    "NAME": "Death's Touch",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Vulnerable to ALL enemies."
+  },
+  "${modID}:AnimaSola": {
+    "NAME": "Anima Sola",
+    "DESCRIPTION": "Deal !D! damage. NL Target enemy loses !M! Strength this turn. NL Exhaust."
+  },
+  "${modID}:BrokenModem": {
+    "NAME": "Broken Modem",
+    "DESCRIPTION": "Gain !M! Intangible and !B! Block. NL Exhaust."
+  },
+  "${modID}:Epiphora": {
+    "NAME": "Epiphora",
+    "DESCRIPTION": "Gain !B! ${modID}:Tears."
+  },
+  "${modID}:Zodiac": {
+    "NAME": "Zodiac",
+    "DESCRIPTION": "Channel 1 ${modID}:Purity. NL Gain !M! ${modID}:Nebula."
+  },
+  "${modID}:Scapular": {
+    "NAME": "Scapular",
+    "DESCRIPTION": "Gain !B! Block. NL Channel 1 ${modID}:Purity."
+  },
+  "${modID}:Cancer": {
+    "NAME": "Cancer",
+    "DESCRIPTION": "Gain !M! Dexterity and 6 ${modID}:Nebula. NL Exhaust."
+  },
+  "${modID}:SacredHeart": {
+    "NAME": "Sacred Heart",
+    "DESCRIPTION": "Deal !D! damage. NL Strength affects this card !M! times."
+  },
+  "${modID}:Virgo": {
+    "NAME": "Virgo",
+    "DESCRIPTION": "Gain !B! Block and !M! ${modID}:Nebula."
+  },
+  "${modID}:Gimpy": {
+    "NAME": "Gimpy",
+    "DESCRIPTION": "Gain !B! ${modID}:Tears. NL Next turn, gain !B! Block."
+  },
+  "${modID}:GnawedLeaf": {
+    "NAME": "Gnawed Leaf",
+    "DESCRIPTION": "Gain !M! Intangible. NL Become ${modID}:Entangled. NL Exhaust."
+  },
+  "${modID}:LilDelirium": {
+    "NAME": "Lil Delirium",
+    "DESCRIPTION": "Target enemy becomes ${modID}:Delirious. NL Exhaust."
+  },
+  "${modID}:Jupiter": {
+    "NAME": "Jupiter",
+    "DESCRIPTION": "Gain !B! Block and !M! ${modID}:Nebula. NL Apply 1 Weak to ALL enemies."
+  },
+  "${modID}:SuperBandage": {
+    "NAME": "Super Bandage",
+    "DESCRIPTION": "Gain !M! ${modID}:Buffer, !B! Block, and !M! Dexterity. NL Exhaust."
+  },
+  "${modID}:Rosary": {
+    "NAME": "Rosary",
+    "DESCRIPTION": "Channel 1 ${modID}:Purity. NL Deal !D! damage."
+  },
+  "${modID}:SoyMilk": {
+    "NAME": "Soy Milk",
+    "DESCRIPTION": "Gain 2 Dexterity. NL Lose !M! Strength."
+  },
+  "${modID}:CamoUndies": {
+    "NAME": "Camo Undies",
+    "DESCRIPTION": "Retain. NL Gain !M! ${modID}:Buffer. NL Exhaust."
+  },
+  "${modID}:SatanicBible": {
+    "NAME": "Satanic Bible",
+    "DESCRIPTION": "Gain 9 ${modID}:Evil and !M! Strength. NL Exhaust."
+  },
+  "${modID}:LittleBaggy": {
+    "NAME": "Little Baggy",
+    "DESCRIPTION": "Gain !B! ${modID}:Tears and !M! ${modID}:Evil. NL Deal !D! damage."
+  },
+  "${modID}:CrownOfLight": {
+    "NAME": "Crown of Light",
+    "DESCRIPTION": "Channel X ${modID}:Purity. NL Deal !D! damage to ALL enemies X times. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Channel X+1 ${modID}:Purity. NL Deal !D! damage to ALL enemies X+1 times. NL Exhaust."
+  },
+  "${modID}:SacredOrb": {
+    "NAME": "Sacred Orb",
+    "DESCRIPTION": "At the start of your turn, ${modID}:Reroll.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, draw 1 additional card and ${modID}:Reroll."
+  },
+  "${modID}:StarOfBethlehem": {
+    "NAME": "Star of Bethlehem",
+    "DESCRIPTION": "Gain !M! Strength and !M! Dexterity."
+  },
+  "${modID}:BlackCandle": {
+    "NAME": "Black Candle",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil and 1 Artifact. NL Deal !D! damage to ALL enemies. NL Exhaust."
+  },
+  "${modID}:Revelation": {
+    "NAME": "Revelation",
+    "DESCRIPTION": "At the start of your turn, Channel !M! ${modID}:Purity."
+  },
+  "${modID}:Mitre": {
+    "NAME": "Mitre",
+    "DESCRIPTION": "Draw !M! card. NL Exhaust 1 card. NL Channel 1 ${modID}:Purity.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. NL Exhaust 1 card. NL Channel 1 ${modID}:Purity."
+  },
+  "${modID}:Sol": {
+    "NAME": "Sol",
+    "DESCRIPTION": "Gain !M! ${modID}:Nebula and 1 Artifact. NL Apply !M! Weak. NL Exhaust."
+  },
+  "${modID}:Seraphim": {
+    "NAME": "Seraphim",
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Draw 1 card for each Orb you have.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Draw 1 card for each Orb you have."
+  },
+  "${modID}:BookOfSin": {
+    "NAME": "Book of Sin",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil. NL Draw 1 card."
+  },
+  "${modID}:OuijaBoard": {
+    "NAME": "Ouija Board",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil and !B! ${modID}:Tears."
+  },
+  "${modID}:SpiritOfTheNight": {
+    "NAME": "Spirit of the Night",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil and 1 Strength. NL Exhaust."
+  },
+  "${modID}:MyShadow": {
+    "NAME": "My Shadow",
+    "DESCRIPTION": "Gain !M! ${modID}:Evil. NL Deal !D! damage to ALL enemies."
+  },
+  "${modID}:Abyss": {
+    "NAME": "Abyss",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies !M! times. NL Exhaust."
+  },
+  "${modID}:DarkBum": {
+    "NAME": "Dark Bum",
+    "DESCRIPTION": "Exhaust 1 card. NL Gain !M! ${modID}:Evil."
+  },
+  "${modID}:Luna": {
+    "NAME": "Luna",
+    "DESCRIPTION": "If you do not play any Attacks during your turn, gain !M! ${modID}:Nebula."
+  },
+  "${modID}:HolyLight": {
+    "NAME": "Holy Light",
+    "DESCRIPTION": "Channel 1 ${modID}:Purity. NL Gain !B! ${modID}:Tears. NL Deal !D! damage."
+  }
+}
