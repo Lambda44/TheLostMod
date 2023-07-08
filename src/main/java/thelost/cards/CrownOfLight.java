@@ -46,6 +46,7 @@ public class CrownOfLight extends BaseCard {
 
         setDamage(CROWN);
         setExhaust(true);
+        this.isMultiDamage = true;
     }
 
     @Override

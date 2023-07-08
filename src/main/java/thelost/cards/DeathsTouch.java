@@ -48,6 +48,7 @@ public class DeathsTouch extends BaseCard {
 
         setDamage(DAMAGE, UPG_DAMAGE); //Sets the card's damage and how much it increases when upgraded.
         setMagic(WEAK);
+        this.isMultiDamage = true;
     }
 
     @Override

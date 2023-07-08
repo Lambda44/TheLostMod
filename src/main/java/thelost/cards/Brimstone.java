@@ -46,6 +46,7 @@ public class Brimstone extends BaseCard {
 
         setDamage(DAMAGE, UPG_DAMAGE); //Sets the card's damage and how much it increases when upgraded.
         setMagic(EVIL);
+        this.isMultiDamage = true;
     }
 
     @Override

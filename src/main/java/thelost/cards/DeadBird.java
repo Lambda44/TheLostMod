@@ -41,6 +41,7 @@ public class DeadBird extends BaseCard {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor. use true as a 2nd argument to change description
 
         setDamage(DAMAGE, UPG_DAMAGE); //Sets the card's damage and how much it increases when upgraded.
+        this.isMultiDamage = true;
     }
 
     @Override
