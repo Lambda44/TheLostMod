@@ -31,7 +31,7 @@ public class LostContact extends BaseCard {
 
     //These will be used in the constructor. Technically you can just use the values directly,
     //but constants at the top of the file are easy to adjust.
-    private static final int TEARS = 8;
+    private static final int TEARS = 5;
     private static final int UPG_TEARS = 3;
 
     private static final int BUFFER = 1;
@@ -41,6 +41,7 @@ public class LostContact extends BaseCard {
 
         setBlock(TEARS, UPG_TEARS);
         setMagic(BUFFER);
+        setEthereal(true);
         setExhaust(true);
     }
 

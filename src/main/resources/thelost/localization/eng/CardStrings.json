@@ -83,7 +83,7 @@
   },
   "${modID}:LostContact": {
     "NAME": "Lost Contact",
-    "DESCRIPTION": "Gain !B! ${modID}:Tears. NL Gain !M! ${modID}:Buffer. NL Exhaust."
+    "DESCRIPTION": "Ethereal. NL Gain !B! ${modID}:Tears. NL Gain !M! ${modID}:Buffer. NL Exhaust."
   },
   "${modID}:Brimstone": {
     "NAME": "Brimstone",
