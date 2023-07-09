@@ -150,7 +150,7 @@
   },
   "${modID}:Gemini": {
     "NAME": "Gemini",
-    "DESCRIPTION": "Whenever you're attacked, gain !M! ${modID}:Nebula."
+    "DESCRIPTION": "After you're attacked, gain !M! ${modID}:Nebula."
   },
   "${modID}:Monstrance": {
     "NAME": "Monstrance",
