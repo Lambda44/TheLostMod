@@ -49,7 +49,8 @@
   },
   "${modID}:DeckOfCards": {
     "NAME": "Deck of Cards",
-    "DESCRIPTION": "At the start of your turn, draw !M! additional card."
+    "DESCRIPTION": "Ethereal. NL At the start of your turn, draw !M! additional card.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, draw !M! additional card."
   },
   "${modID}:HolyWater": {
     "NAME": "Holy Water",
@@ -120,8 +121,8 @@
   },
   "${modID}:BlankCard": {
     "NAME": "Blank Card",
-    "DESCRIPTION": "This turn, your next card is played twice.",
-    "UPGRADE_DESCRIPTION": "Draw !M! card. NL This turn, your next card is played twice."
+    "DESCRIPTION": "This turn, your next card is played twice. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "This turn, your next card is played twice."
   },
   "${modID}:GlitchedCrown": {
     "NAME": "Glitched Crown",

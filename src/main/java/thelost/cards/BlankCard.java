@@ -32,20 +32,15 @@ public class BlankCard extends BaseCard {
     //but constants at the top of the file are easy to adjust.
     private static final int DUPE = 1;
 
-    private static final int UPG_COST= 0;
-
     public BlankCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor. use true as a 2nd argument to change description
 
         setMagic(DUPE);
-        //setCostUpgrade(UPG_COST);
+        setExhaust(true, false);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if(this.upgraded) {
-            addToBot(new DrawCardAction(p, this.magicNumber));
-        }
         addToBot(new ApplyPowerAction(p, p, new DuplicationPower(p, 1), 1));
     }
 
