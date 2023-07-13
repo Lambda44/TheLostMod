@@ -260,7 +260,7 @@
   },
   "${modID}:SoyMilk": {
     "NAME": "Soy Milk",
-    "DESCRIPTION": "Gain 2 Dexterity. NL Lose !M! Strength."
+    "DESCRIPTION": "Gain 3 Dexterity. NL Lose !M! Strength."
   },
   "${modID}:CamoUndies": {
     "NAME": "Camo Undies",
@@ -341,5 +341,9 @@
   "${modID}:HolyLight": {
     "NAME": "Holy Light",
     "DESCRIPTION": "Channel 1 ${modID}:Purity. NL Gain !B! ${modID}:Tears. NL Deal !D! damage."
+  },
+  "${modID}:Dogma": {
+    "NAME": "Dogma",
+    "DESCRIPTION": "Gain !B! Block. NL At the start of your turn, gain !M! Block."
   }
 }

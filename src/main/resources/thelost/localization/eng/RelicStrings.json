@@ -17,7 +17,7 @@
     "NAME": "Soul of the Lost",
     "FLAVOR": "You have left your body behind. Something else ties you to this plane now.",
     "DESCRIPTIONS": [
-      "Non-boss chests have a #b50% chance to contain a second relic. When climbing a floor, Max HP is set to #b1."
+      "Non-boss chests have a #b50% chance to contain a second relic. When climbing a floor, Max HP is set to #b1. #yAscend against the Heart."
     ]
   },
   "${modID}:DevilsCrown": {
