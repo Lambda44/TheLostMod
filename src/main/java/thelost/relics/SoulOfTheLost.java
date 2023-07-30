@@ -3,6 +3,7 @@ package thelost.relics;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.tempCards.Miracle;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.BufferPower;
@@ -16,9 +17,11 @@ import static thelost.BasicMod.makeID;
 public class SoulOfTheLost extends BaseRelic{
     private static final String NAME = "SoulOfTheLost";
     public static final String ID = makeID(NAME);
+    private static int ascTracker = 0;
 
     public SoulOfTheLost() {
         super(ID, NAME, TheLost.Enums.CARD_COLOR, RelicTier.STARTER, LandingSound.MAGICAL);
+        this.ascTracker = Math.max(AbstractDungeon.ascensionLevel - 19, 0);
     }
 
     @Override
@@ -50,9 +53,13 @@ public class SoulOfTheLost extends BaseRelic{
     }
 
     public void atBattleStartPreDraw() {
-        if (AbstractDungeon.floorNum == 55) {
+        if (AbstractDungeon.floorNum == (55 + this.ascTracker)) {
             this.addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, this));
-            this.addToBot(new MakeTempCardInHandAction(new Dogma(), 1, false));
+            AbstractCard card = new Dogma();
+            if (AbstractDungeon.ascensionLevel >= 19) {
+                card.upgrade();
+            }
+            this.addToBot(new MakeTempCardInHandAction(card, 1, false));
         }
     }
 
